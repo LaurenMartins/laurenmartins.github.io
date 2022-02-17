@@ -1,0 +1,348 @@
+header{
+    border: solid 1px grey;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: relative;
+    height: 40px;
+    background-color: white;
+}
+#cefet{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 5px;
+
+}
+
+header li{
+    display: inline;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 10px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+    right: 200px;
+    bottom: 27px;
+}
+
+.linha1{
+    height: 40px;
+    width: 1px;
+    background-color: gray;
+    position: relative;
+    bottom: 64px;
+    left: 170px;
+}
+
+.search{
+    position: relative;
+    bottom: 92px;
+    width: 18px;
+    height: 18px;
+    color: gray;
+    left: 1180px;
+    
+}
+
+.menu{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    bottom: 92px;
+    left: 1220px;
+}
+
+.linha2{
+    height: 40px;
+    width: 1px;
+    background-color: gray;
+    position: relative;
+    bottom: 125px;
+    left: 1160px;
+}
+
+.linha3{
+    height: 40px;
+    width: 1px;
+    background-color: gray;
+    position: relative;
+    bottom: 165px;
+    left: 1220px;
+}
+
+html{
+    background-color: rgb(219, 219, 219);
+}
+
+.logo{
+    position: relative;
+    top: 60px;
+    left: 120px;
+    width: 60px;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.title1{
+    position: relative;
+    left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: rgb(24, 24, 24);
+    top: 53px;
+}
+
+.title2{
+    position: relative;
+    left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: rgb(24, 24, 24);
+    top: 40px;
+}
+
+#p1{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: gray;
+    left: 120px;
+    top: 35px;
+}
+
+#p2{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: gray;
+    left: 120px;
+    top: 35px;
+}
+
+#hr1{
+    position: relative;
+    color: gray;
+    width: 300px;
+    right: 355px;
+    top: 70px;
+}
+
+.box{
+    width: 650px;
+    height: 600px;
+    background-color: #fff;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+    border: solid 1px rgb(182, 182, 182);
+}
+ 
+#box2{
+top: -170px;
+ }
+
+#box3{
+    bottom: 140px;
+}
+
+.insidebox{
+    border: solid 1px rgb(182, 182, 182);
+    width: 650px;
+    height: 175px;
+}
+
+.inbox{
+    border: solid 1px rgb(182, 182, 182);
+    height: 175px;
+    width: 230px;
+    left: 419px;
+    position:relative;
+    bottom: 73px;
+}
+
+.tibox{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    letter-spacing: 3px;
+    font-size: 16px;
+    left: 30px;
+    top: 40px;
+}
+
+.sbtbox{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    color: gray;
+    letter-spacing: 1px;
+    left: 30px;
+    top: 47px;
+    position: relative;
+}
+
+#inbox2{
+    bottom: 92px;
+}
+
+.date1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: rgb(24, 24, 24);
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.avatar{
+    border-radius: 30px;
+    position: relative;
+}
+
+#avatarbox1{
+    position: relative;
+    left: 145px;
+    top: 40px;
+}
+
+#avatarbox2{
+    position: relative;
+    left: 145px;
+    top: 40px;
+}
+
+#avatarbox3{
+    position: relative;
+    left: 145px;
+    top: 40px;
+}
+
+.name1{
+    position: relative;
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 70px;
+}
+
+.boximg{
+    position: relative;
+    width: 550px;
+    height: 200px;
+    left: 45px;
+    top: 40px;
+    border: solid 1px rgb(182, 182, 182);
+}
+
+.imagembox{
+    width: 550px;
+    height: 200px;
+    left: 45px;
+    top: 40px;   
+}
+
+.textb1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73, 73, 73);
+    font-size: 10px;
+    line-height: 15px;
+    position: relative;
+    left: 45px;
+    top: 50px;
+}
+
+.cr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(24, 24, 24);
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    left: 65px;
+    top: 70px;
+}
+
+.general{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+
+.smbox{
+    width:300px;
+    height: 230px;
+    background-color: #fff;
+    position: relative;
+    bottom: 1730px;
+    left: 68px;
+    border: solid 1px rgb(182, 182, 182);
+    margin: 30px;
+}
+
+.imgbox2{
+    border: solid 1px rgb(182, 182, 182);
+    height: 150px;
+}
+
+#pic04{
+    background: #fff url(./img/pic04.jpg) no-repeat center;
+}
+
+#pic05{
+    background: #fff url(./img/pic05.jpg) no-repeat center;
+}
+
+#pic06{
+    background: #fff url(./img/pic06.jpg) no-repeat center;
+}
+
+#pic07{
+    background: #fff url(./img/pic07.jpg) no-repeat center;
+}
+
+.txt1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(24, 24, 24);
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.txt2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 9px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+
+.avatar2{
+    border-radius: 30px;
+    position: relative;
+    bottom: 35px;
+    left: 240px;
+}

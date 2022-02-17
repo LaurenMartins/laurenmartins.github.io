@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clientes</title>
+</head>
+<body>
+    <h3>Cadastro de Clientes</h3>
+
+    <form action="{% url '/clientes' %}" method="post" enctype="multipart/form-data">
+        
+        <div>
+            <label for=""><h3>Nome</h3></label>
+            <input name= "nome" required="required" placeholder="Digite seu nome" type="text" maxlength="30">
+        </div>
+        
+        <div>
+            <label for=""><h3>Endereço</h3></label>
+            <input name= "endereço" required="required" placeholder="Digite seu endereço" type="text" maxlength="50">
+        </div>
+
+        <div>
+            <label for=""><h3>Email</h3></label>
+            <input name= "email" required="required" placeholder="Digite seu e-mail" type="text">
+        </div>
+
+        <div>
+            <h3><label for="noticias"><input name="newsletter" id="noticias" type="checkbox">Desejo receber newsletter</label></h3>
+        </div>
+
+        <div>
+            <button name="enviar" value="1" type="submit">Cadastrar</button>
+        </div>
+
+        <div>
+            <button name="cancel" value="1" type="submit"><a href= atividade6.html >Cancelar</a></button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
