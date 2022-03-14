@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: #E0B402;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.dcontato{
+    padding-right: 10px;
+    padding-top: 11px;
+}
+
+.contato{
+    padding: 8px;
+    background-color: #4E4E4E;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+body{
+    background-color: #4E4E4E;
+}
+
+.subtitulo{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    position: relative;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+.imagens{
+    height: 200px;
+    width: 190px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    border: 0;
+    display: flex;
+    display: inline-block;
+    margin: 40px;
+}
+
+.fileira1{
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+#therain{
+    background: url(/atv12/img/therain.jpg);
+}
